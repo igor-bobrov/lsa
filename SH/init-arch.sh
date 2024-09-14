@@ -1,0 +1,23 @@
+cd ~/
+wget --continue https://ca.mirrors.cicku.me/archlinux/iso/2024.09.01/archlinux-2024.09.01-x86_64.iso
+
+clear
+
+echo "made by sakari"
+
+echo "Read devices:"
+ls -a /dev/sd?
+echo "Is this correct(we need /dev/sda)? You have 10 seconds to stop procces"
+
+sleep 7
+echo "3"
+sleep 1
+echo "2"
+sleep 1
+echo "1"
+sleep 1
+
+umount /dev/sda
+
+sudo wipefs --all /dev/sda
+sudo dd if=~/archlinux-2024.09.01-x86_64.iso of=/dev/sda bs=4M oflag=direct status=progress && sync
