@@ -24,7 +24,7 @@ makepkg -si --noconfirm
 cd
 
 yay -S librewolf-bin --noconfirm
-yay -Sy Balena Etcher --noconfirm
+yay -Sy Balena Etcher woeusb --noconfirm
 
 cp -r ~/SFurOS/Images ~/Images
 cp -r ~/SFurOS/Books ~/Books
