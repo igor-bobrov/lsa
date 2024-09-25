@@ -6,6 +6,8 @@ sudo pacman -Sy virt-manager qemu dnsmasq edk2-ovmf iptables --noconfirm
 sudo pacman -Sy github-cli --noconfirm
 sudo pacman -Sy telegram-desktop gparted --noconfirm
 sudo pacman -Sy neovim --noconfirm
+sudo pacman -Syu man-db
+
 
 sudo pacman -S mtpfs gvfs-mtp --noconfirm
 
