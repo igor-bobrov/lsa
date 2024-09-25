@@ -4,8 +4,10 @@ sudo pacman -Sy veracrypt keepassxc --noconfirm
 sudo pacman -Sy thunar --noconfirm
 sudo pacman -Sy virt-manager qemu dnsmasq edk2-ovmf iptables --noconfirm
 sudo pacman -Sy github-cli --noconfirm
-sudo pacman -Sy telegram-desktop --noconfirm
+sudo pacman -Sy telegram-desktop gparted --noconfirm
 sudo pacman -Sy neovim --noconfirm
+
+sudo pacman -S mtpfs gvfs-mtp --noconfirm
 
 cd
 git clone https://aur.archlinux.org/yay.git
