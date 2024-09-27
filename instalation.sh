@@ -15,6 +15,7 @@ sudo pacman -S mtpfs gvfs-mtp os-prober --noconfirm
 
 
 sudo pacman -Sy waybar hyprpaper --noconfirm
+sudo pacman -Sy rofi
 
 
 
@@ -45,5 +46,8 @@ mkdir -p ~/.config/kitty
 
 sudo pacman -Rns dolphin --noconfirm
 sudo pacman -Rns vim --noconfirm
+sudo pacman -Rns drun
+
+
 rm ~/.config/dolphinrc
 clear
