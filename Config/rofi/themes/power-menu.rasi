@@ -38,7 +38,7 @@ entry, element-text {
 
 entry {
     font:   inherit;
-    placeholder: "Search:";
+    placeholder: "Power menu:";
     placeholder-color   : @fg2;
 }
 
@@ -53,10 +53,10 @@ textbox {
 }
 
 listview {
-    lines:      15;
+    lines:      3;
     columns:    1;
 
-    fixed-height:   false;
+    fixed-height:   true;
     border:         1px 0 0;
     border-color:   @bg1;
 }

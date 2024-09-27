@@ -10,12 +10,14 @@ sudo pacman -Syu man-db vlc --noconfirm
 
 sudo pacman -Sy nvidia-dkms nvidia nvidia-utils --noconfirm
 
+sudo pacman -Sy xclip htop neofetch numlockx --noconfirm
+sudo pacman -Sy alsa-utils --noconfirm
 
 sudo pacman -S mtpfs gvfs-mtp os-prober --noconfirm
 
 
 sudo pacman -Sy waybar hyprpaper --noconfirm
-sudo pacman -Sy rofi
+sudo pacman -Sy rofi --noconfirm
 
 
 
@@ -42,11 +44,11 @@ mkdir -p ~/Videos
 cd 
 mkdir -p ~/.config/kitty
 
-
+chmod +x ~/lsa/SH/add-to-bin
 
 sudo pacman -Rns dolphin --noconfirm
 sudo pacman -Rns vim --noconfirm
-sudo pacman -Rns drun
+sudo pacman -Rns drun --noconfirm
 
 
 rm ~/.config/dolphinrc

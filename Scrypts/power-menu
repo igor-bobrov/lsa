@@ -1,0 +1,19 @@
+#!/bin/sh
+options="poweroff\nreboot\nexit"
+
+choice=$(echo -e $options | rofi -config ~/.config/rofi/config-power-menu.rasi -dmenu)
+
+case $choice in
+    "poweroff")
+        systemctl poweroff
+        ;;
+    "reboot")
+        systemctl reboot
+        ;;
+    "exit")
+        exit 
+        ;;
+    *)
+        exit 1
+        ;;
+esac

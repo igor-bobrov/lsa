@@ -1,0 +1,10 @@
+#!/bin/sh
+chmod +x ~/lsa/Scrypts/upd-hyprland
+chmod +x ~/lsa/Scrypts/upd-rofi
+chmod +x ~/lsa/Scrypts/upd-kitty
+chmod +x ~/lsa/Scrypts/upd-grub
+chmod +x ~/lsa/Scrypts/power-menu
+chmod +x ~/lsa/Scrypts/clear-tmp
+chmod +x ~/lsa/SH/init-arch
+chmod +x ~/lsa/SH/update-sys
+sudo chmod +x /bin/update-sys

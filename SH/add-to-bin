@@ -1,0 +1,2 @@
+#!/bin/sh
+sudo cp ~/lsa/SH/update-sys /bin/
