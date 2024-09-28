@@ -1,0 +1,6 @@
+#!/bin/sh
+cp -r ~/lsa/cDirectory ~/
+mkdir -p ~/Documents
+mkdir -p ~/Downloads
+mkdir -p ~/Music
+mkdir -p ~/Videos

@@ -8,3 +8,4 @@ chmod 770 ~/lsa/Scrypts/clear-tmp
 chmod 770 ~/lsa/SH/init-arch
 chmod 770 ~/lsa/SH/update-sys
 chmod 770 ~/lsa/Scrypts/swap-wall
+chmod 770 ~/lsa/SH/set-default-directory
