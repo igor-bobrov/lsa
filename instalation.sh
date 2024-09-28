@@ -1,7 +1,6 @@
 sudo pacman -Syu
 sudo pacman -Sy viewnior vlc libreoffice-still p7zip nmap veracrypt  os-prober keepassxc thunar virt-manager qemu dnsmasq edk2-ovmf iptables github-cli telegram-desktop neovim man-db xclip htop neofetch numlockx --noconfirm
 # gparted
-sudo pacman -Sy nvidia-dkms nvidia nvidia-utils --noconfirm
 sudo pacman -Sy alsa-utils --noconfirm
 sudo pacman -S mtpfs gvfs-mtp --noconfirm # android
 
