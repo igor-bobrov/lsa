@@ -1,25 +1,13 @@
-sudo pacman -Sy viewnior vlc libreoffice-still p7zip --noconfirm
-sudo pacman -Sy nmap --noconfirm
-sudo pacman -Sy veracrypt keepassxc --noconfirm
-sudo pacman -Sy thunar --noconfirm
-sudo pacman -Sy virt-manager qemu dnsmasq edk2-ovmf iptables --noconfirm
-sudo pacman -Sy github-cli --noconfirm
-sudo pacman -Sy telegram-desktop gparted --noconfirm
-sudo pacman -Sy neovim --noconfirm
-sudo pacman -Syu man-db vlc --noconfirm
+sudo pacman -Syu
 
+sudo pacman -Sy viewnior vlc libreoffice-still p7zip nmap veracrypt  os-prober keepassxc thunar virt-manager qemu dnsmasq edk2-ovmf iptables github-cli telegram-desktop neovim man-db xclip htop neofetch numlockx --noconfirm
+# gparted
 sudo pacman -Sy nvidia-dkms nvidia nvidia-utils --noconfirm
-
-sudo pacman -Sy xclip htop neofetch numlockx --noconfirm
 sudo pacman -Sy alsa-utils --noconfirm
-
-sudo pacman -S mtpfs gvfs-mtp os-prober --noconfirm
-
-
-sudo pacman -Sy waybar hyprpaper --noconfirm
-sudo pacman -Sy rofi --noconfirm
+sudo pacman -S mtpfs gvfs-mtp --noconfirm # android
 
 
+sudo pacman -Sy waybar hyprpaper rofi --noconfirm
 
 cd
 git clone https://aur.archlinux.org/yay.git
@@ -41,10 +29,10 @@ mkdir -p ~/Downloads
 mkdir -p ~/Music
 mkdir -p ~/Videos
 
-cd 
-mkdir -p ~/.config/kitty
-
 chmod +x ~/lsa/SH/add-to-bin
+~/lsa/SH/add-to-bin
+chmod +x ~/lsa/SH/get-chmod
+~/lsa/SH/get-chmod
 
 sudo pacman -Rns dolphin --noconfirm
 sudo pacman -Rns vim --noconfirm

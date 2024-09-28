@@ -1,10 +1,12 @@
 #!/bin/sh
-chmod +x ~/lsa/Scrypts/upd-hyprland
-chmod +x ~/lsa/Scrypts/upd-rofi
-chmod +x ~/lsa/Scrypts/upd-kitty
-chmod +x ~/lsa/Scrypts/upd-grub
-chmod +x ~/lsa/Scrypts/power-menu
-chmod +x ~/lsa/Scrypts/clear-tmp
-chmod +x ~/lsa/SH/init-arch
-chmod +x ~/lsa/SH/update-sys
-sudo chmod +x /bin/update-sys
+chmod 770 ~/lsa/Scrypts/upd-hyprland
+chmod 770 ~/lsa/Scrypts/upd-rofi
+chmod 770 ~/lsa/Scrypts/upd-kitty
+chmod 770 ~/lsa/Scrypts/upd-grub
+chmod 770 ~/lsa/Scrypts/power-menu
+chmod 770 ~/lsa/Scrypts/clear-tmp
+chmod 770 ~/lsa/SH/init-arch
+chmod 770 ~/lsa/SH/update-sys
+sudo chmod 770 /bin/update-sys
+sudo chmod 770 /bin/init-arch
+chmod 770 ~/lsa/Scrypts/swap-wall

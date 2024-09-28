@@ -1,2 +1,3 @@
 #!/bin/sh
 sudo cp ~/lsa/SH/update-sys /bin/
+sudo cp ~/lsa/SH/init-arch /bin/

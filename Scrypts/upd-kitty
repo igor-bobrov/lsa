@@ -1,2 +1,2 @@
 #!/bin/sh
-cp ~/lsa/Config/Kitty/kitty.conf ~/.config/kitty/
+cp -r ~/lsa/Config/Kitty/kitty.conf ~/.config/kitty/
