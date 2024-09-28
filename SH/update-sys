@@ -1,5 +1,5 @@
 #!/bin/sh
 sudo pacman -Syu --noconfirm
-~/lsa/Scrypts/upd-hyprland
-~/lsa/Scrypts/upd-kitty
-~/lsa/Scrypts/upd-rofi
+$HOME/lsa/Scrypts/upd-hyprland
+$HOME/lsa/Scrypts/upd-kitty
+$HOME/lsa/Scrypts/upd-rofi
