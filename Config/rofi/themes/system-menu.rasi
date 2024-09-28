@@ -38,7 +38,7 @@ entry, element-text {
 
 entry {
     font:   inherit;
-    placeholder: "Power menu:";
+    placeholder: "System menu:";
     placeholder-color   : @fg2;
 }
 
@@ -53,7 +53,7 @@ textbox {
 }
 
 listview {
-    lines:      3;
+    lines:      4;
     columns:    1;
 
     fixed-height:   true;

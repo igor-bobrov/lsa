@@ -6,7 +6,6 @@ sudo pacman -Sy nvidia-dkms nvidia nvidia-utils --noconfirm
 sudo pacman -Sy alsa-utils --noconfirm
 sudo pacman -S mtpfs gvfs-mtp --noconfirm # android
 
-
 sudo pacman -Sy waybar hyprpaper rofi --noconfirm
 
 cd

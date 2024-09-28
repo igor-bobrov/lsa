@@ -1,0 +1,20 @@
+#!/bin/sh
+options="Poweroff\nReboot\nUpdate system\nNothing"
+choice=$(echo -e $options | rofi -config ~/.config/rofi/config-system-menu.rasi -dmenu)
+case $choice in
+    "Poweroff")
+        systemctl poweroff
+        ;;
+    "Reboot")
+        systemctl reboot
+        ;;
+    "Update system")
+        exec kitty ~/lsa/SH/update-sys
+        ;;
+    "Nothing")
+        exit 
+        ;;
+    *)
+        exit 
+        ;;
+esac
