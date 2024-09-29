@@ -12,3 +12,6 @@ chmod 770 ~/lsa/SH/set-default-directory
 chmod 770 ~/lsa/Nvidia/add-nvidia
 chmod 770 ~/lsa/SH/my-bytes
 chmod 770 ~/lsa/SH/connect-iwctl
+
+chmod 770 ~/lsa/SH/light-down
+chmod 770 ~/lsa/SH/light-up

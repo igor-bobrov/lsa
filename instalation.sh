@@ -8,6 +8,10 @@ sudo pacman -Sy waybar hyprpaper rofi --noconfirm
 
 sudo pacman -S ntfs-3g --noconfirm
 
+sudo pacman -S freeglut brightnessctl
+    
+
+
 cd
 git clone https://aur.archlinux.org/yay.git
 cd yay
@@ -18,6 +22,7 @@ cd paru
 makepkg -si --noconfirm
 cd
 
+#yay -S light --noconfirm
 yay -S librewolf-bin --noconfirm
 yay -Sy Balena Etcher woeusb --noconfirm
 
