@@ -1,0 +1,5 @@
+#!/bin/sh
+sudo pacman -S gnome gnome-extra
+sudo systemctl enable gdm.service
+~/lsa/Scrypts/system-menu
+
