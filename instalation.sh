@@ -6,6 +6,8 @@ sudo pacman -S mtpfs gvfs-mtp --noconfirm # android
 
 sudo pacman -Sy waybar hyprpaper rofi --noconfirm
 
+sudo pacman -S ntfs-3g --noconfirm
+
 cd
 git clone https://aur.archlinux.org/yay.git
 cd yay

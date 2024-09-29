@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Guide iwctl"
+echo "station \"adapter\" connect \"SSID\""
+iwctl
