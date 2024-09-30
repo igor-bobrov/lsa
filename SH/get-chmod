@@ -3,7 +3,7 @@ chmod 770 ~/lsa/Scrypts/upd-hyprland
 chmod 770 ~/lsa/Scrypts/upd-rofi
 chmod 770 ~/lsa/Scrypts/upd-kitty
 chmod 770 ~/lsa/Scrypts/upd-grub
-chmod 770 ~/lsa/Scrypts/power-menu
+chmod 770 ~/lsa/Scrypts/system-menu
 chmod 770 ~/lsa/Scrypts/clear-tmp
 chmod 770 ~/lsa/SH/init-arch
 chmod 770 ~/lsa/SH/update-sys

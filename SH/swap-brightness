@@ -1,9 +1,7 @@
 #!/bin/sh
 
-if (brightnessctl g ig 0)
-    ~/lsa/SH/monitor-off
-    ;;
-else
+if [ brightnessctl get -eq 0 ]; then
     ~/lsa/SH/monitor-on
-    ;;
+else
+    ~/lsa/SH/monitor-off
 fi
