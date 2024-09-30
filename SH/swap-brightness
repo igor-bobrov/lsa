@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if (brightnessctl g ig 0)
+    ~/lsa/SH/monitor-off
+    ;;
+else
+    ~/lsa/SH/monitor-on
+    ;;
+fi

@@ -15,3 +15,6 @@ chmod 770 ~/lsa/SH/connect-iwctl
 
 chmod 770 ~/lsa/SH/light-down
 chmod 770 ~/lsa/SH/light-up
+chmod 770 ~/lsa/SH/monitor-off
+chmod 770 ~/lsa/SH/monitor-on
+chmod 770 ~/lsa/SH/swap-brightness
