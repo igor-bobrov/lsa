@@ -5,6 +5,7 @@ sudo pacman -Sy alsa-utils --noconfirm
 sudo pacman -S mtpfs gvfs-mtp --noconfirm # android
 
 sudo pacman -Sy waybar hyprpaper rofi --noconfirm
+sudo pacman -Sy hyprcursor hyprlock hyprpicker --noconfirm
 
 sudo pacman -S ntfs-3g --noconfirm
 
@@ -30,6 +31,7 @@ chmod +x ~/lsa/SH/get-chmod
 ~/lsa/SH/get-chmod
 
 ~/lsa/SH/det-default-directory
+~/lsa/Scrypts/add-cursors
 
 sudo pacman -Rns dolphin --noconfirm
 sudo pacman -Rns vim --noconfirm
