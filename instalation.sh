@@ -10,8 +10,7 @@ sudo pacman -Sy hyprcursor hyprlock hyprpicker --noconfirm
 sudo pacman -S ntfs-3g --noconfirm
 
 sudo pacman -S freeglut brightnessctl
-    
-
+sudo pacman -Sy wl-clipboard
 
 cd
 git clone https://aur.archlinux.org/yay.git

@@ -20,3 +20,4 @@ chmod 770 ~/lsa/SH/monitor-on
 chmod 770 ~/lsa/SH/swap-brightness
 
 chmod 770 ~/lsa/Scrypts/add-cursors
+chmod 770 ~/lsa/SH/picker-color
