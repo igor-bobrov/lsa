@@ -13,11 +13,11 @@ chmod 770 ~/lsa/Nvidia/add-nvidia
 chmod 770 ~/lsa/SH/my-bytes
 chmod 770 ~/lsa/SH/connect-iwctl
 
-chmod 770 ~/lsa/SH/light-down
-chmod 770 ~/lsa/SH/light-up
-chmod 770 ~/lsa/SH/monitor-off
-chmod 770 ~/lsa/SH/monitor-on
-chmod 770 ~/lsa/SH/swap-brightness
+chmod 770 ~/lsa/SH/bright/light-down
+chmod 770 ~/lsa/SH/bright/light-up
+chmod 770 ~/lsa/SH/bright/monitor-off
+chmod 770 ~/lsa/SH/bright/monitor-on
+chmod 770 ~/lsa/SH/bright/swap-brightness
 
 chmod 770 ~/lsa/Scrypts/add-cursors
 chmod 770 ~/lsa/SH/picker-color
