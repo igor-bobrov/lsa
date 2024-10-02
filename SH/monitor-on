@@ -1,2 +1,3 @@
 #!/bin/sh
-brightnessctl set 100%
+brightnessctl set $(cat ~/lsa/vars/brightness)
+
