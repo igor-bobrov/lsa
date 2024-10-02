@@ -9,10 +9,10 @@ case $choice in
         systemctl reboot
         ;;
     "Update system")
-        exec kitty ~/lsa/SH/update-sys
+        exec kitty --app-id upd ~/lsa/SH/update-sys 
         ;;
     "Connect ssid(iwctl)(iwd)")
-        exec kitty ~/lsa/SH/connect-iwctl
+        exec kitty --app-id upd ~/lsa/SH/connect-iwctl
         ;;
     "Connect to ethernet")
         exit

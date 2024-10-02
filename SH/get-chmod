@@ -21,3 +21,5 @@ chmod 770 ~/lsa/SH/bright/swap-brightness
 
 chmod 770 ~/lsa/Scrypts/add-cursors
 chmod 770 ~/lsa/SH/picker-color
+
+chmod 770 ~/lsa/SH/clear-msg

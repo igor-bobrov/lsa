@@ -12,6 +12,8 @@ sudo pacman -S ntfs-3g --noconfirm
 sudo pacman -S freeglut brightnessctl
 sudo pacman -Sy wl-clipboard
 
+sudo pacman -S mako
+
 cd
 git clone https://aur.archlinux.org/yay.git
 cd yay

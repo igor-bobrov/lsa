@@ -1,4 +1,5 @@
 #!/bin/sh
+echo "Welcome to update-system app"
 sudo pacman -Syu --noconfirm
 $HOME/lsa/Scrypts/upd-hyprland
 $HOME/lsa/Scrypts/upd-kitty
