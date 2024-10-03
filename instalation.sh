@@ -12,7 +12,7 @@ sudo pacman -S ntfs-3g --noconfirm
 sudo pacman -S freeglut brightnessctl
 sudo pacman -Sy wl-clipboard
 
-sudo pacman -S mako
+sudo pacman -S mako btop
 
 cd
 git clone https://aur.archlinux.org/yay.git
@@ -35,7 +35,7 @@ chmod +x ~/lsa/SH/get-chmod
 ~/lsa/Scrypts/add-cursors
 
 sudo pacman -Rns dolphin --noconfirm
-sudo pacman -Rns vim --noconfirm
+sudo pacman -Rns vim htop --noconfirm
 
 rm ~/.config/dolphinrc
 clear

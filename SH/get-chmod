@@ -24,3 +24,5 @@ chmod 770 ~/lsa/SH/picker-color
 
 chmod 770 ~/lsa/SH/clear-msg
 chmod 770 ~/lsa/SH/sys-info
+chmod 770 ~/lsa/Scrypts/upd-viewnior
+chmod 770 ~/lsa/Scrypts/upd-btop
