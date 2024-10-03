@@ -1,0 +1,4 @@
+#!/bin/sh
+if [ "$(cat ~/lsa/vars/btop-auto)" -eq 1 ]; then
+    exec kitty --app-id btop btop
+fi

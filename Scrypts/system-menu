@@ -1,5 +1,5 @@
 #!/bin/sh
-options="Poweroff\nReboot\nUpdate system\nConnect ssid(iwctl)(iwd)\nConnect to ethernet\nSystem info\nNothing"
+options="Poweroff\nReboot\nUpdate system\nConnect ssid(iwctl)(iwd)\nConnect to ethernet\nTask manager\nSystem info\nNothing"
 choice=$(echo -e $options | rofi -config ~/.config/rofi/config-system-menu.rasi -dmenu)
 case $choice in
     "Poweroff")
@@ -19,6 +19,9 @@ case $choice in
         ;;
     "System info")
         exec kitty --app-id sys-info ~/lsa/SH/sys-info
+        ;;
+    "Task manager")
+        exec kitty --app-id btop btop
         ;;
     *)
         exit 
