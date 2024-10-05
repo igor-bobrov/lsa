@@ -9,16 +9,16 @@ case $choice in
         systemctl reboot
         ;;
     "Update system")
-        exec kitty --app-id upd ~/lsa/SH/update-sys 
+        exec kitty --app-id sys-menu --app-id sys-menu-main  ~/lsa/SH/update-sys 
         ;;
     "Connect ssid(iwctl)(iwd)")
-        exec kitty --app-id sys-info ~/lsa/SH/connect-iwctl
+        exec kitty --app-id sys-menu ~/lsa/SH/connect-iwctl
         ;;
     "Connect to ethernet")
         exit
         ;;
     "System info")
-        exec kitty --app-id sys-info ~/lsa/SH/sys-info
+        exec kitty --app-id sys-menu ~/lsa/SH/sys-info
         ;;
     "Task manager")
         exec kitty --app-id btop btop
