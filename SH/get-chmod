@@ -30,4 +30,4 @@ chmod 770 ~/lsa/Scrypts/upd-btop
 chmod 770 ~/lsa/SH/btop-auto
 chmod 770 ~/lsa/Scrypts/upd-neofetch
 
-chmod 770 ~/lsa/SH/upd-on-git
+ 
