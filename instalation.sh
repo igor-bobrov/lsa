@@ -14,6 +14,12 @@ sudo pacman -Sy wl-clipboard
 
 sudo pacman -S mako btop
 
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
+
+
+
 cd
 git clone https://aur.archlinux.org/yay.git
 cd yay
@@ -26,8 +32,6 @@ cd
 
 #yay -S light --noconfirm
 yay -S librewolf-bin waypaper --noconfirm
-
-# yay -Sy Balena Etcher woeusb --noconfirm
 
 chmod +x ~/lsa/SH/get-chmod
 ~/lsa/SH/get-chmod
