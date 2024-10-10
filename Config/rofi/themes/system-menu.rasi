@@ -83,3 +83,4 @@ element selected normal, element selected active {
 element-text {
     text-color: inherit;
 }
+

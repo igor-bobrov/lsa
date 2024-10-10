@@ -3,8 +3,8 @@ sudo pacman -Sy viewnior vlc libreoffice-still p7zip nmap veracrypt  os-prober k
 # gparted
 sudo pacman -Sy alsa-utils --noconfirm
 sudo pacman -S mtpfs gvfs-mtp --noconfirm # android
-
-sudo pacman -Sy waybar hyprpaper rofi --noconfirm
+# hyprpaper
+sudo pacman -Sy waybar swww rofi --noconfirm
 sudo pacman -Sy hyprcursor hyprlock hyprpicker --noconfirm
 
 sudo pacman -S ntfs-3g --noconfirm
@@ -25,8 +25,9 @@ makepkg -si --noconfirm
 cd
 
 #yay -S light --noconfirm
-yay -S librewolf-bin --noconfirm
-yay -Sy Balena Etcher woeusb --noconfirm
+yay -S librewolf-bin waypaper --noconfirm
+
+# yay -Sy Balena Etcher woeusb --noconfirm
 
 chmod +x ~/lsa/SH/get-chmod
 ~/lsa/SH/get-chmod
@@ -39,3 +40,4 @@ sudo pacman -Rns vim htop --noconfirm
 
 rm ~/.config/dolphinrc
 clear
+echo "Done!"
