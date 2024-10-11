@@ -1,0 +1,15 @@
+#!/bin/sh
+sudo systemctl start bluetooth.service
+echo "Включение Bluetooth..."
+sudo systemctl start bluetooth
+{
+    echo "power on"    
+    echo "agent on"       
+    echo "scan on"        
+    echo "devices"         
+    read -p "write mac: " mac_address
+    echo "pair $mac_address"  
+    echo "connect $mac_address" 
+    echo "trust $mac_address"
+    echo "exit"
+} | bluetoothctl
