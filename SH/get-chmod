@@ -31,3 +31,5 @@ chmod 770 ~/lsa/Scrypts/upd-neofetch
 chmod 770 ~/lsa/Scrypts/wallpaper-menu
 chmod 770 ~/lsa/SH/random-wall
 chmod 770 ~/lsa/Scrypts/upd-nvim
+
+chmod 770 ~/lsa/Games/init-game-zone
