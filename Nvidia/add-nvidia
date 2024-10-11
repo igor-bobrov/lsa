@@ -3,8 +3,8 @@ sudo pacman -Sy nvidia-dkms nvidia nvidia-utils egl-wayland --noconfirm
 
 cp /etc/mkinitcpio.conf ~/lsa/Nvidia/
 echo "# add MODULES=(... nvidia nvidia_modeset nvidia_uvm nvidia_drm ...)" >> ~/lsa/Nvidia/mkinitcpio.conf
-nano ~/lsa/Nvidia/mkinitcpio.conf
-cp ~/lsa/Nvidia/mkinitcpio.conf /etc/
+# nano ~/lsa/Nvidia/mkinitcpio.conf
+sudo cp ~/lsa/Nvidia/mkinitcpio.conf /etc/
 
 sudo cp ~/lsa/Nvidia/modprobe.d/nvidia.conf /etc/modprobe.d/nvidia.conf
 cp -r ~/lsa/Nvidia/hypr/ ~/lsa/Config/
