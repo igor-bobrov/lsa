@@ -1,0 +1,29 @@
+#!/bin/sh
+options="Poweroff\nReboot\nUpdate system\nConnect ssid(iwctl)(iwd)\nConnect to ethernet\nTask manager\nSystem info\nNothing"
+choice=$(echo -e $options | rofi -config ~/.config/rofi/config-system-menu.rasi -dmenu)
+case $choice in
+    "Poweroff")
+        systemctl poweroff
+        ;;
+    "Reboot")
+        systemctl reboot
+        ;;
+    "Update system")
+        exec kitty --app-id sys-menu --app-id sys-menu-main  ~/lsa/Scripts/update-sys 
+        ;;
+    "Connect ssid(iwctl)(iwd)")
+        exec kitty --app-id sys-menu ~/lsa/Scripts/connect-iwctl
+        ;;
+    "Connect to ethernet")
+        exit
+        ;;
+    "System info")
+        exec kitty --app-id sys-menu ~/lsa/Scripts/sys-info
+        ;;
+    "Task manager")
+        exec kitty --app-id btop btop
+        ;;
+    *)
+        exit 
+        ;;
+esac

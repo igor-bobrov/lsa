@@ -1,2 +1,0 @@
-#!/bin/sh
-cp -r ~/lsa/Config/Kitty/kitty.conf ~/.config/kitty/

@@ -1,4 +1,0 @@
-#!/bin/sh
-sudo pacman -Sy gamemode lib32-gamemode mangohud lib32-mangohud steam --noconfirm
-
-chmod 770 ~/lsa/Games/upd-conf-games

@@ -1,9 +1,0 @@
-#!/bin/sh
-echo "  Welcome to update-system app"
-sudo pacman -Syu --noconfirm
-$HOME/lsa/Scrypts/upd-hyprland
-$HOME/lsa/Scrypts/upd-kitty
-$HOME/lsa/Scrypts/upd-rofi
-$HOME/lsa/Scrypts/upd-viewnior
-$HOME/lsa/Scrypts/upd-btop
-$HOME/lsa/Scrypts/upd-neofetch

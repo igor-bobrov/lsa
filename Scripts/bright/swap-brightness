@@ -1,0 +1,7 @@
+#!/bin/sh
+if [ "$(brightnessctl get)" -eq 0 ]; then
+    ~/lsa/Scripts/bright/monitor-on
+else
+    echo $(brightnessctl get) > ~/lsa/vars/brightness
+    ~/lsa/Scripts/bright/monitor-off
+fi

@@ -1,8 +1,0 @@
-#!/bin/sh
-
-cp -r ~/lsa/Config/hypr/ ~/.config/
-cp -r ~/lsa/Config/waybar ~/.config/
-
-chmod 770 ~/.config/waybar/scripts/playerctl/playerctl.sh
-chmod 770 ~/.config/waybar/scripts/wlrecord.sh
-chmod 770 ~/.config/waybar/scripts/mediaplayer.py

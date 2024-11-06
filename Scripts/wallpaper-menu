@@ -1,0 +1,14 @@
+#!/bin/sh
+options="Swap wallpaper gui\nSwap wallpaper\nNothing"
+choice=$(echo -e $options | rofi -config ~/.config/rofi/config-wallpaper-menu.rasi -dmenu)
+case $choice in
+    "Swap wallpaper gui")
+        exec waypaper
+        ;;
+    "Swap wallpaper")
+        exec kitty --app-id hide ~/lsa/Scripts/random-wall
+        ;;
+    *)
+        exit 
+        ;;
+esac

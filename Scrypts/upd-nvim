@@ -1,5 +1,0 @@
-#!/bin/sh
-cp -r ~/lsa/Config/nvim ~/.config/
-
-# source ~/.config/nvim/plugged/awesome-vim-colorschemes/colors/iceberg.vim
-

@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "  Welcome to update-system app"
+sudo pacman -Syu --noconfirm
+cp -r $HOME/lsa/.config $HOME/
