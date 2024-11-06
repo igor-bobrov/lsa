@@ -1,7 +1,0 @@
-#!/bin/sh
-sudo fdisk -l
-sudo mkdir /mnt/windows
-sudo mount -t ntfs-3g /dev/nvme0n1p3 /mnt/windows
-sudo echo "/dev/nvme0n1p3  /mnt/windows  ntfs-3g  defaults  0  0" >> /etc/fstab
-sudo umount /mnt/windows
-

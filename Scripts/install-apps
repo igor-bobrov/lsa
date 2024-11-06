@@ -1,0 +1,5 @@
+#!/bin/sh
+pacman -Sy hyprcursor hyprlock hyprpicker waybar hyprland swww rofi --noconfirm
+pacman -Sy viewnior nemo vlc libreoffice-still  keepassxc github-cli telegram-desktop neovim man-db xclip neofetch numlockx --noconfirm
+pacman -Sy alsa-utils mtpfs gvfs-mtp --noconfirm
+pacman -Sy p7zip nmap veracrypt os-prober virt-manager qemu dnsmasq edk2-ovmf iptables --noconfirm
