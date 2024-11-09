@@ -1,0 +1,16 @@
+#!/bin/sh
+pacman -Sy hyprcursor hyprlock hyprpicker waybar hyprland swww rofi --noconfirm
+pacman -Sy viewnior nemo vlc libreoffice-still  keepassxc github-cli telegram-desktop neovim man-db xclip neofetch numlockx --noconfirm
+pacman -Sy alsa-utils mtpfs gvfs-mtp --noconfirm
+pacman -Sy p7zip nmap veracrypt os-prober virt-manager qemu dnsmasq edk2-ovmf iptables --noconfirm
+pacman -S ntfs-3g freeglut brightnessctl wl-clipboard mako btop bluez bluez-utils --noconfirm
+cd
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si --noconfirm
+cd
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si --noconfirm
+cd
+yay -S librewolf-bin waypaper --noconfirm
